@@ -126,6 +126,10 @@ hr.divider{
 	hr.divider{
 		width:20%;
 	}
+	
+	.thumbnail > img{
+		opacity: 1;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -144,6 +148,9 @@ hr.divider{
 	}
 	hr.divider{
 		width:15%;
+	}
+	.thumbnail > img{
+		opacity: 1;
 	}
 }
 
@@ -164,6 +171,9 @@ hr.divider{
 	hr.divider{
 		width:15%;
 	}
+	.thumbnail > img{
+		opacity: 1;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -179,6 +189,21 @@ hr.divider{
 
 	header h2 {
 		font-size: 2.571em; /* 36px/14px */
+	}
+	.thumbnail > img{
+		opacity: .7;
+		-webkit-transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-o-transition: opacity .5s ease-in-out;
+		transition: opacity .5s ease-in-out;
+		
+	}
+	.thumbnail:hover > img{
+		opacity: 1;
+		-webkit-transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-o-transition: opacity .5s ease-in-out;
+		transition: opacity .5s ease-in-out;
 	}
 }
 
